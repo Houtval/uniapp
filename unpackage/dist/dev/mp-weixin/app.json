@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/user/login/login",
+    "pages/tabbar/home/home",
+    "pages/tabbar/light/light",
+    "pages/tabbar/temperature/temperature",
+    "pages/tabbar/user/user",
+    "pages/user/register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "text": "主页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeSelect.png"
+      },
+      {
+        "pagePath": "pages/tabbar/light/light",
+        "text": "灯",
+        "iconPath": "static/light.png",
+        "selectedIconPath": "static/lightSelect.png"
+      },
+      {
+        "pagePath": "pages/tabbar/temperature/temperature",
+        "text": "温湿度",
+        "iconPath": "static/temperature.png",
+        "selectedIconPath": "static/temperatureSelect.png"
+      },
+      {
+        "pagePath": "pages/tabbar/user/user",
+        "text": "我的",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/userSelect.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,95 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/user/login/login",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "",
+	        "enablePullDownRefresh": false,
+			"navigationBarTitleText": "登录"
+	    }
+	    
+	},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}
+	    ,{
+            "path" : "pages/tabbar/light/light",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "灯"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/temperature/temperature",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "温湿度"
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "我的"
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "注册"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": { // 设置底部 tab 的表现
+			"color": "#333333",
+			"selectedColor": "#1296db",
+			"borderStyle": "black",
+			"backgroundColor": "#fff",
+			"list": [{
+					"pagePath": "pages/tabbar/home/home",
+					"text": "主页",
+					"iconPath": "static/home.png",
+					"selectedIconPath": "static/homeSelect.png"
+				}, {
+					"pagePath": "pages/tabbar/light/light",
+					"text": "灯",
+					"iconPath": "static/light.png",
+					"selectedIconPath": "static/lightSelect.png"
+				}, {
+					"pagePath": "pages/tabbar/temperature/temperature",
+					"text": "温湿度",
+					"iconPath": "static/temperature.png",
+					"selectedIconPath": "static/temperatureSelect.png"
+				}, {
+					"pagePath": "pages/tabbar/user/user",
+					"text": "我的",
+					"iconPath": "static/user.png",
+					"selectedIconPath": "static/userSelect.png"
+				}
+			]
+		},
+	"uniIdRouter": {}
+}

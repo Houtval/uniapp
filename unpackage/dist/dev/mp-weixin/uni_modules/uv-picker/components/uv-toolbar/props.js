@@ -1,0 +1,1 @@
+"use strict";const t={props:{show:{type:Boolean,default:!0},showBorder:{type:Boolean,default:!1},cancelText:{type:String,default:"取消"},confirmText:{type:String,default:"确认"},cancelColor:{type:String,default:"#909193"},confirmColor:{type:String,default:"#3c9cff"},title:{type:String,default:""}}};exports.props=t;

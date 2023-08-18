@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-input": "../../../uni_modules/uv-input/components/uv-input/uv-input",
+    "uv-form-item": "../../../uni_modules/uv-form/components/uv-form-item/uv-form-item",
+    "uv-icon": "../../../uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-button": "../../../uni_modules/uv-button/components/uv-button/uv-button",
+    "uv-form": "../../../uni_modules/uv-form/components/uv-form/uv-form",
+    "uv-popup": "../../../uni_modules/uv-popup/components/uv-popup/uv-popup",
+    "uv-image": "../../../uni_modules/uv-image/components/uv-image/uv-image",
+    "uv-col": "../../../uni_modules/uv-row/components/uv-col/uv-col",
+    "uv-row": "../../../uni_modules/uv-row/components/uv-row/uv-row"
+  }
+}

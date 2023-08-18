@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "灯",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-col": "../../../uni_modules/uv-row/components/uv-col/uv-col",
+    "uv-switch": "../../../uni_modules/uv-switch/components/uv-switch/uv-switch",
+    "uv-row": "../../../uni_modules/uv-row/components/uv-row/uv-row",
+    "uv-slider": "../../../uni_modules/uv-slider/components/uv-slider/uv-slider",
+    "uv-button": "../../../uni_modules/uv-button/components/uv-button/uv-button",
+    "uv-pick-color": "../../../uni_modules/uv-pick-color/components/uv-pick-color/uv-pick-color"
+  }
+}

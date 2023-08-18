@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "温湿度",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-col": "../../../uni_modules/uv-row/components/uv-col/uv-col",
+    "uv-row": "../../../uni_modules/uv-row/components/uv-row/uv-row",
+    "uv-switch": "../../../uni_modules/uv-switch/components/uv-switch/uv-switch",
+    "uv-slider": "../../../uni_modules/uv-slider/components/uv-slider/uv-slider"
+  }
+}
